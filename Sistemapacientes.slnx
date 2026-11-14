@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="API/SistemaPacientes.API.csproj" />
+  <Project Path="SistemaPacientes.Application/SistemaPacientes.Application.csproj" />
+  <Project Path="SistemaPacientes.Client/SistemaPacientes.Client.csproj" />
+  <Project Path="SistemaPacientes.Domain/SistemaPacientes.Domain.csproj" />
+  <Project Path="SistemaPacientes.Infrastructure/SistemaPacientes.Infrastructure.csproj" />
+</Solution>
