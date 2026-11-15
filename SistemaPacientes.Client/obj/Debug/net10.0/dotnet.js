@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "SistemaPacientes.Client",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-iUY6Gc0SvMqvF6uW+yvBKD6LYz2gcv+c+e0v0ZtotZ0=",
+    "hash": "sha256-HwMYG3pCDB5sAIV+NrUwYkyCz4H+nU0ekFM/zfbVwx0=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.bjoj0wmylw.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "SistemaPacientes.Client.wasm",
-        "name": "SistemaPacientes.Client.tmw9ri85qw.wasm",
-        "hash": "sha256-i6/bHVX3wwy843qDePXluUggtJTEh/f6BPrNEUWL6SM=",
+        "name": "SistemaPacientes.Client.kcrjbp6qhi.wasm",
+        "hash": "sha256-NOAXGIryAwh6EUAo7aTrOB2Gg9synpWnOOZemknJBHg=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "SistemaPacientes.Client.pdb",
-        "name": "SistemaPacientes.Client.ffs4tob0p0.pdb",
-        "hash": "sha256-67W4GboTGNlgL5m/DnlgULLn2BHSLU/7aVJemph6f+I=",
+        "name": "SistemaPacientes.Client.oyrj5ra7wq.pdb",
+        "hash": "sha256-UOUfmEz3wnVKGFUJum6ecv/136FKKOnDjOcTJr9AB0I=",
         "cache": "force-cache"
       }
     ],

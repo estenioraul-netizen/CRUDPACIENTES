@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\esten\\source\\repos\\NewRepo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|c:\\users\\esten\\source\\repos\\newrepo\\sistemapacientes.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|solutionrelative:sistemapacientes.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|c:\\users\\esten\\source\\repos\\newrepo\\sistemapacientes.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|solutionrelative:sistemapacientes.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|c:\\users\\esten\\source\\repos\\newrepo\\sistemapacientes.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|solutionrelative:sistemapacientes.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|c:\\users\\esten\\source\\repos\\newrepo\\sistemapacientes.client\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|solutionrelative:sistemapacientes.client\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|c:\\users\\esten\\source\\repos\\newrepo\\sistemapacientes.client\\pages\\pacientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|solutionrelative:sistemapacientes.client\\pages\\pacientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|c:\\users\\esten\\source\\repos\\newrepo\\sistemapacientes.client\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|solutionrelative:sistemapacientes.client\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|c:\\users\\esten\\source\\repos\\newrepo\\sistemapacientes.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|solutionrelative:sistemapacientes.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|c:\\users\\esten\\source\\repos\\newrepo\\sistemapacientes.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06959D3-3088-EDAD-55FE-01A496E7AFC2}|SistemaPacientes.Client\\SistemaPacientes.Client.csproj|solutionrelative:sistemapacientes.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73137375-F1C6-79FE-75EB-9B0A4D96C741}|SistemaPacientes.Domain\\SistemaPacientes.Domain.csproj|c:\\users\\esten\\source\\repos\\newrepo\\sistemapacientes.domain\\sistemapacientes.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73137375-F1C6-79FE-75EB-9B0A4D96C741}|SistemaPacientes.Domain\\SistemaPacientes.Domain.csproj|solutionrelative:sistemapacientes.domain\\sistemapacientes.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SistemaPacientes.Domain",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Domain\\SistemaPacientes.Domain.csproj",
+              "RelativeDocumentMoniker": "SistemaPacientes.Domain\\SistemaPacientes.Domain.csproj",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Domain\\SistemaPacientes.Domain.csproj",
+              "RelativeToolTip": "SistemaPacientes.Domain\\SistemaPacientes.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-14T21:25:04.517Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "SistemaPacientes.Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\_Imports.razor",
+              "RelativeToolTip": "SistemaPacientes.Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-14T23:51:57.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "SistemaPacientes.Client\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\Weather.razor",
+              "RelativeToolTip": "SistemaPacientes.Client\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-14T23:51:54.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "SistemaPacientes.Client\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "SistemaPacientes.Client\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-14T23:51:51.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotFound.razor",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\NotFound.razor",
+              "RelativeDocumentMoniker": "SistemaPacientes.Client\\Pages\\NotFound.razor",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\NotFound.razor",
+              "RelativeToolTip": "SistemaPacientes.Client\\Pages\\NotFound.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-14T23:51:48.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\App.razor",
+              "RelativeDocumentMoniker": "SistemaPacientes.Client\\App.razor",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\App.razor",
+              "RelativeToolTip": "SistemaPacientes.Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-14T23:51:35.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pacientes.razor",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\Pacientes.razor",
+              "RelativeDocumentMoniker": "SistemaPacientes.Client\\Pages\\Pacientes.razor",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\Pacientes.razor",
+              "RelativeToolTip": "SistemaPacientes.Client\\Pages\\Pacientes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-14T23:46:29.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaPacientes.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Program.cs",
+              "RelativeToolTip": "SistemaPacientes.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T23:44:20.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "SistemaPacientes.Client\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\NewRepo\\SistemaPacientes.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "SistemaPacientes.Client\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-14T23:51:50.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 104,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

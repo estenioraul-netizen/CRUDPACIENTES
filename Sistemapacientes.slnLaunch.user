@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "API\\SistemaPacientes.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SistemaPacientes.Client\\SistemaPacientes.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,230 @@
+﻿@page "/pacientes"
+
+@using SistemaPacientes.Client.Models
+@using SistemaPacientes.Client.Services
+@inject PacienteApiService Servicio
+
+<h3>Sistema de Pacientes</h3>
+
+<hr />
+
+<h4>@(editando ? "Editar paciente" : "Registrar paciente")</h4>
+
+<div class="mb-3">
+    <label>Nombres</label>
+    <input class="form-control" @bind="paciente.Nombres" />
+</div>
+
+<div class="mb-3">
+    <label>Apellidos</label>
+    <input class="form-control" @bind="paciente.Apellidos" />
+</div>
+
+<div class="mb-3">
+    <label>Cédula</label>
+    <input class="form-control" @bind="paciente.Cedula" />
+</div>
+
+<div class="mb-3">
+    <label>Fecha de nacimiento</label>
+    <input type="date" class="form-control" @bind="fechaNacimiento" />
+</div>
+
+<div class="mb-3">
+    <label>Sexo</label>
+    <select class="form-control" @bind="paciente.Sexo">
+        <option value="">Seleccione</option>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+    </select>
+</div>
+
+<div class="mb-3">
+    <label>Teléfono</label>
+    <input class="form-control" @bind="paciente.Telefono" />
+</div>
+
+<div class="mb-3">
+    <label>Email</label>
+    <input type="email" class="form-control" @bind="paciente.Email" />
+</div>
+
+<div class="mb-3">
+    <label>Dirección</label>
+    <input class="form-control" @bind="paciente.Direccion" />
+</div>
+
+<div class="mb-3">
+    <label>Estado</label>
+    <input type="checkbox" @bind="paciente.Activo" />
+    Activo
+</div>
+
+<button class="btn btn-primary" @onclick="Guardar">
+    @(editando ? "Actualizar paciente" : "Guardar paciente")
+</button>
+
+@if (editando)
+{
+    <button class="btn btn-secondary ms-2" @onclick="Cancelar">
+        Cancelar
+    </button>
+}
+
+@if (!string.IsNullOrEmpty(mensaje))
+{
+    <p class="mt-3">@mensaje</p>
+}
+
+<hr />
+
+<h4>Listado de pacientes</h4>
+
+@if (pacientes == null)
+{
+    <p>Cargando pacientes...</p>
+}
+else if (pacientes.Count == 0)
+{
+    <p>No hay pacientes registrados.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Cédula</th>
+                <th>Teléfono</th>
+                <th>Email</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in pacientes)
+            {
+                <tr>
+                    <td>@p.Id</td>
+                    <td>@p.Nombres</td>
+                    <td>@p.Apellidos</td>
+                    <td>@p.Cedula</td>
+                    <td>@p.Telefono</td>
+                    <td>@p.Email</td>
+                    <td>@(p.Activo ? "Activo" : "Inactivo")</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm"
+                                @onclick="() => Editar(p)">
+                            Editar
+                        </button>
+
+                        <button class="btn btn-danger btn-sm"
+                                @onclick="() => Eliminar(p.Id)">
+                            Eliminar
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Paciente>? pacientes;
+    private Paciente paciente = new();
+    private bool editando = false;
+    private string mensaje = "";
+
+    private DateTime fechaNacimiento
+    {
+        get => paciente.FechaNacimiento;
+        set => paciente.FechaNacimiento = value;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarPacientes();
+    }
+
+    private async Task CargarPacientes()
+    {
+        try
+        {
+            pacientes = await Servicio.ObtenerTodosAsync();
+        }
+        catch (Exception ex)
+        {
+            mensaje = "Error al cargar pacientes: " + ex.Message;
+            pacientes = new List<Paciente>();
+        }
+    }
+
+    private async Task Guardar()
+    {
+        try
+        {
+            if (editando)
+            {
+                await Servicio.ActualizarAsync(paciente.Id, paciente);
+                mensaje = "Paciente actualizado correctamente.";
+            }
+            else
+            {
+                await Servicio.CrearAsync(paciente);
+                mensaje = "Paciente registrado correctamente.";
+            }
+
+            paciente = new Paciente();
+            editando = false;
+
+            await CargarPacientes();
+        }
+        catch (Exception ex)
+        {
+            mensaje = "Error al guardar: " + ex.Message;
+        }
+    }
+
+    private void Editar(Paciente p)
+    {
+        paciente = new Paciente
+        {
+            Id = p.Id,
+            Nombres = p.Nombres,
+            Apellidos = p.Apellidos,
+            Cedula = p.Cedula,
+            FechaNacimiento = p.FechaNacimiento,
+            Sexo = p.Sexo,
+            Telefono = p.Telefono,
+            Email = p.Email,
+            Direccion = p.Direccion,
+            Activo = p.Activo
+        };
+
+        editando = true;
+        mensaje = "";
+    }
+
+    private async Task Eliminar(int id)
+    {
+        try
+        {
+            await Servicio.EliminarAsync(id);
+            mensaje = "Paciente eliminado correctamente.";
+            await CargarPacientes();
+        }
+        catch (Exception ex)
+        {
+            mensaje = "Error al eliminar: " + ex.Message;
+        }
+    }
+
+    private void Cancelar()
+    {
+        paciente = new Paciente();
+        editando = false;
+        mensaje = "";
+    }
+}
